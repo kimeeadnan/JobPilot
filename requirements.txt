@@ -1,0 +1,12 @@
+# Core (Week 1)
+google-genai>=1.0        # Gemini API (default provider)
+pydantic>=2.6            # validated, structured LLM outputs
+python-dotenv>=1.0       # load API keys from .env
+pypdf>=4.0               # read resume PDFs
+
+# Testing
+pytest>=8.0
+
+# Added in later weeks:
+# streamlit              # Week 3: UI
+# openai / anthropic     # optional alternative providers
